@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 
 const App = () => {
-	const [file, setFile] = useState(null);
+    const [file, setFile] = useState(null);
     const retrieveFile = (e) => {
     const data = e.target.files[0];
     const reader = new window.FileReader();
@@ -25,20 +25,15 @@ const App = () => {
 	return (
 	<Router>
 		<div className="App">
-		
-		/*
+
 		  <header className="App-header">
 			<img src={logo} className="App-logo" alt="logo" />
 			<p>
-			  Choose file(s) to upload.
+			  Hello World.
 			</p>
-		  <form className="form" onSubmit={handleSubmit}>
-			<input type="file" name="data" onChange={retrieveFile} />
-			<button type="submit" className="btn">Upload file</button>
-		  </form>
-		  </header>
-		*/
-		
+		  
+		  </header>	
+
 		<nav>
 		  <ul>
 			<li>
