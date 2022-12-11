@@ -26,6 +26,7 @@ const App = () => {
 	<Router>
 		<div className="App">
 		
+		/*
 		  <header className="App-header">
 			<img src={logo} className="App-logo" alt="logo" />
 			<p>
@@ -36,7 +37,8 @@ const App = () => {
 			<button type="submit" className="btn">Upload file</button>
 		  </form>
 		  </header>
-		  
+		*/
+		
 		<nav>
 		  <ul>
 			<li>
